@@ -1,0 +1,26 @@
+# Runtime credentials and local state (never commit, even when encrypted).
+private/
+credential.bin
+*.log
+*.tmp
+run.lock
+stop.request
+
+# Optional local configuration and secrets.
+.env
+.env.*
+!.env.example
+
+# Captures and network traces may contain authentication data.
+*.har
+*.pcap
+*.pcapng
+*.saz
+
+# Local editors and operating-system metadata.
+.vscode/
+.idea/
+.vs/
+Thumbs.db
+Desktop.ini
+.DS_Store
